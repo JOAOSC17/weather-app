@@ -1,0 +1,38 @@
+.weather-card{
+    text-align: center;
+    margin:auto;
+    max-width: 400px;
+    height: 250px;
+    background: rgba( 255, 255, 255, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: relative;
+}
+.weather-card__info{
+    margin-top: 50px;
+    z-index: 5;
+}
+.weather-card__info-title{
+    font-size: 50px;
+    color: #ffffff;
+}
+.weather-card__info-temp{
+    font-size: 30px;
+    font-weight: 500;
+}
+.weather-card__glassphormism{
+    position: absolute;
+    z-index: -1;
+    font-weight: 900;
+    top: 20%;
+    left: 0;
+    right: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    font-size: 100px;
+    color: rgba(255, 255, 255, 0.250);
+}
